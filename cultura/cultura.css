@@ -1,0 +1,77 @@
+.card {display: flex;}
+
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: arial;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    margin: 0px;
+    padding: 0px;
+    grid-template-rows: 2fr 96fr 2fr;
+    grid-template-areas: "h h h"
+                         "a m m"
+                         "f f f"
+}
+main {
+    background-color: blue;
+    grid-area: m;
+    padding-top: 50px;
+
+}
+aside {
+    background-color: purple;
+    grid-area: a;
+}
+footer {
+    background-color: yellow;
+    grid-area: f;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    text-align: center;
+    /*margin-top: 100px;*/
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+.header {
+    background-color: #101010;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    grid-area: h;
+}
+.logo{
+margin-left: 20px;
+height: 100px;
+}
+.menu {
+    display: flex;
+}
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    background-color: #008B8B;
+    color: white;
+}
+.card {
+    margin: 0px;
+    padding: 0px;
+}
+.imagem {height: 100px;
+            margin: 10px;}

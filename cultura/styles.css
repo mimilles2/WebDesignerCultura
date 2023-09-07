@@ -1,0 +1,23 @@
+@font-face {
+    font-family: kanit;
+    src: url(Kanit-Regular.ttf);
+}
+
+h1 {
+    font-family: kanit;
+}
+
+
+
+
+.nav-item a{
+    color: aliceblue;
+}
+
+#titulo{
+ justify-content: center;
+ text-align: center;
+ font-size: 40px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}

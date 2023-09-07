@@ -1,0 +1,34 @@
+
+  .code {
+    width: 640px;
+    clear: both;
+    height: 360px;
+    background:black;
+    border-radius: 2px;
+    margin: 50px;
+    margin-right: 20px;
+    padding: 10px; }
+    .code pre, .code code {
+      height: 100%;
+      margin: 0; }
+    .code code {
+      padding: 20px 0 0 20p; }
+    .code--small code {
+      padding-top: 75px; }
+    .code--left {
+      float: left; }
+  body {
+    background-color: #538a95;
+  }
+  .titulo{
+    width: 100%;
+    height: 720px;
+  }
+  .img-caixa {
+    width: 640px;
+    height: 360px;
+  }
+  .lados {
+    display: flex; /* Isso fará com que os elementos dentro de .lados fiquem lado a lado */
+}
+
